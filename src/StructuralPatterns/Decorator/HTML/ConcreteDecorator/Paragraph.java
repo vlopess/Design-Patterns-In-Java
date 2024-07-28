@@ -1,7 +1,7 @@
-package StructuralPatterns.Decorator.ConcreteDecorator;
+package StructuralPatterns.Decorator.HTML.ConcreteDecorator;
 
-import StructuralPatterns.Decorator.AbstractDecorator.AbstractDecorator;
-import StructuralPatterns.Decorator.Component.VisualComponent;
+import StructuralPatterns.Decorator.HTML.AbstractDecorator.AbstractDecorator;
+import StructuralPatterns.Decorator.HTML.Component.VisualComponent;
 
 public class Paragraph extends AbstractDecorator {
 
@@ -16,12 +16,5 @@ public class Paragraph extends AbstractDecorator {
     @Override
     protected void closing() {
         System.out.print("</p>");
-    }
-
-    @Override
-    public void draw(){
-        opening();
-        super.draw();
-        closing();
     }
 }

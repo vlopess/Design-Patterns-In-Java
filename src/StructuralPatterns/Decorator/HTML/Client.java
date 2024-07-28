@@ -1,10 +1,10 @@
-package StructuralPatterns.Decorator;
+package StructuralPatterns.Decorator.HTML;
 
-import StructuralPatterns.Decorator.Component.VisualComponent;
-import StructuralPatterns.Decorator.ConcreteComponent.Text;
-import StructuralPatterns.Decorator.ConcreteDecorator.DocHTML;
-import StructuralPatterns.Decorator.ConcreteDecorator.Paragraph;
-import StructuralPatterns.Decorator.ConcreteDecorator.Strong;
+import StructuralPatterns.Decorator.HTML.Component.VisualComponent;
+import StructuralPatterns.Decorator.HTML.ConcreteComponent.Text;
+import StructuralPatterns.Decorator.HTML.ConcreteDecorator.DocHTML;
+import StructuralPatterns.Decorator.HTML.ConcreteDecorator.Paragraph;
+import StructuralPatterns.Decorator.HTML.ConcreteDecorator.Strong;
 
 public class Client {
     public static void main(String[] args) {

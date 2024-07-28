@@ -5,41 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9cc081-f767-443a-a78a-f6c6a5cfa1b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Pattern in Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Adaptee/DisplayerLegacy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Adapter/DisplayAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Models/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Models/Xml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Target/Displayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Target/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Components/Componente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Composite/Caixa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/DeliveryService/DeliveryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Leaves/AbstractProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Leaves/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Leaves/Notebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Composite/Leaves/Shampoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/AbstractDecorator/AbstractDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Component/VisualComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteComponent/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/DocHTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/Paragraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/Strong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/Models/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/Proxy/ProxyVideoDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/RealSubject/RealVideoDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/Subject/VideoDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/AbstractDecorator/AbstractDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/Component/Protocolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/ConcreteComponent/TCPIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/ConcreteDecorator/SSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/AbstractDecorator/AbstractDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/AbstractDecorator/AbstractDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Component/VisualComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/Component/VisualComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteComponent/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/ConcreteComponent/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/DocHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/ConcreteDecorator/DocHTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/ConcreteDecorator/Paragraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/Strong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/ConcreteDecorator/Strong.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -71,6 +50,7 @@
     "Application.Client.executor": "Run",
     "Application.StructuralPatterns.Adapter.Client.executor": "Run",
     "Application.StructuralPatterns.Decorator.Client.executor": "Run",
+    "Application.StructuralPatterns.Decorator.Protocolo.Client.executor": "Run",
     "Application.StructuralPatterns.Proxy.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StructuralPatterns.Proxy.Client">
+  <component name="RunManager" selected="Application.StructuralPatterns.Decorator.Protocolo.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Composite.Client" />
       <module name="Design Pattern in Java" />
@@ -112,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuralPatterns.Decorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Decorator.Client" />
+    <configuration name="StructuralPatterns.Decorator2.HTML.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Decorator2.HTML.Client" />
       <module name="Design Pattern in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Decorator.*" />
+          <option name="PATTERN" value="StructuralPatterns.Decorator2.HTML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructuralPatterns.Decorator.Protocolo.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Decorator.Protocolo.Client" />
+      <module name="Design Pattern in Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StructuralPatterns.Decorator.Protocolo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,8 +133,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StructuralPatterns.Decorator.Protocolo.Client" />
+        <item itemvalue="Application.StructuralPatterns.Decorator2.HTML.Client" />
         <item itemvalue="Application.StructuralPatterns.Proxy.Client" />
-        <item itemvalue="Application.StructuralPatterns.Decorator.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.StructuralPatterns.Adapter.Client" />
       </list>
@@ -163,11 +157,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722169854076</updated>
-      <workItem from="1722169855101" duration="9717000" />
+      <workItem from="1722169855101" duration="17725000" />
     </task>
+    <task id="LOCAL-00001" summary="ADD Structural Patterns">
+      <option name="closed" value="true" />
+      <created>1722180411793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722180411793</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD Structural Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Structural Patterns" />
   </component>
 </project>

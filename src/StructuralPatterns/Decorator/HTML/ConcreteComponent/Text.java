@@ -1,6 +1,6 @@
-package StructuralPatterns.Decorator.ConcreteComponent;
+package StructuralPatterns.Decorator.HTML.ConcreteComponent;
 
-import StructuralPatterns.Decorator.Component.VisualComponent;
+import StructuralPatterns.Decorator.HTML.Component.VisualComponent;
 
 public class Text implements VisualComponent {
     private final String text;

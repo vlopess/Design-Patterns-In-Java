@@ -1,6 +1,6 @@
-package StructuralPatterns.Decorator.AbstractDecorator;
+package StructuralPatterns.Decorator.HTML.AbstractDecorator;
 
-import StructuralPatterns.Decorator.Component.VisualComponent;
+import StructuralPatterns.Decorator.HTML.Component.VisualComponent;
 
 public abstract class AbstractDecorator implements VisualComponent {
     private final VisualComponent component;
@@ -14,6 +14,8 @@ public abstract class AbstractDecorator implements VisualComponent {
 
     @Override
     public void draw(){
+        opening();
         component.draw();
+        closing();
     }
 }
