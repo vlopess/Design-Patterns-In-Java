@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9cc081-f767-443a-a78a-f6c6a5cfa1b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/AbstractDecorator/AbstractDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/Component/Protocolo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/ConcreteComponent/TCPIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Protocolo/ConcreteDecorator/SSL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/Abstraction/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/ConcreteImplementation/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/ConcreteImplementation/MSMQSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/Implementation/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/RedefinedAbstraction/SystemMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/RedefinedAbstraction/UserMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/AbstractDecorator/AbstractDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/AbstractDecorator/AbstractDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Component/VisualComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/Component/VisualComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteComponent/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/ConcreteComponent/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/DocHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/ConcreteDecorator/DocHTML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/ConcreteDecorator/Paragraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/ConcreteDecorator/Strong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/HTML/ConcreteDecorator/Strong.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2jsJSugqYvekDAFcCgBB42NpqNP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,7 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Client.executor": "Run",
+    "Application.Client.executor": "Debug",
     "Application.StructuralPatterns.Adapter.Client.executor": "Run",
     "Application.StructuralPatterns.Decorator.Client.executor": "Run",
     "Application.StructuralPatterns.Decorator.Protocolo.Client.executor": "Run",
@@ -65,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StructuralPatterns.Decorator.Protocolo.Client">
+  <component name="RunManager" selected="Application.StructuralPatterns.BridgeBardot.Message.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Composite.Client" />
       <module name="Design Pattern in Java" />
@@ -79,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuralPatterns.Adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Adapter.Client" />
+    <configuration name="StructuralPatterns.BridgeBardot.Message.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.BridgeBardot.Message.Client" />
       <module name="Design Pattern in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Adapter.*" />
+          <option name="PATTERN" value="StructuralPatterns.BridgeBardot.Message.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StructuralPatterns.BridgeBardot.Message.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.StructuralPatterns.Decorator.Protocolo.Client" />
         <item itemvalue="Application.StructuralPatterns.Decorator2.HTML.Client" />
         <item itemvalue="Application.StructuralPatterns.Proxy.Client" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.StructuralPatterns.Adapter.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722169854076</updated>
       <workItem from="1722169855101" duration="17725000" />
+      <workItem from="1722214826659" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="ADD Structural Patterns">
       <option name="closed" value="true" />
