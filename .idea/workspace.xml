@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9cc081-f767-443a-a78a-f6c6a5cfa1b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/Abstraction/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/ConcreteImplementation/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/ConcreteImplementation/MSMQSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/Implementation/MessageSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/RedefinedAbstraction/SystemMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/BridgeBardot/Message/RedefinedAbstraction/UserMessage.java" afterDir="false" />
+    <list default="true" id="2a9cc081-f767-443a-a78a-f6c6a5cfa1b9" name="Changes" comment="ADD Bridge">
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Prova/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Prova/Component/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Prova/Composite/Pasta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Prova/Leafs/Arquivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Prova/Models/Credencial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Prova/Proxy/ArquivoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Prova/Service/ConsoleLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Prova/Service/RegisterLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +45,10 @@
   "keyToString": {
     "Application.Client.executor": "Debug",
     "Application.StructuralPatterns.Adapter.Client.executor": "Run",
+    "Application.StructuralPatterns.BridgeBardot.Message.Client.executor": "Run",
     "Application.StructuralPatterns.Decorator.Client.executor": "Run",
     "Application.StructuralPatterns.Decorator.Protocolo.Client.executor": "Run",
+    "Application.StructuralPatterns.Prova.Client.executor": "Run",
     "Application.StructuralPatterns.Proxy.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -60,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StructuralPatterns.BridgeBardot.Message.Client">
+  <component name="RunManager" selected="Application.StructuralPatterns.Prova.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Composite.Client" />
       <module name="Design Pattern in Java" />
@@ -113,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuralPatterns.Proxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Proxy.Client" />
+    <configuration name="StructuralPatterns.Prova.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Prova.Client" />
       <module name="Design Pattern in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Proxy.*" />
+          <option name="PATTERN" value="StructuralPatterns.Prova.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StructuralPatterns.Prova.Client" />
         <item itemvalue="Application.StructuralPatterns.BridgeBardot.Message.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.StructuralPatterns.Decorator.Protocolo.Client" />
         <item itemvalue="Application.StructuralPatterns.Decorator2.HTML.Client" />
-        <item itemvalue="Application.StructuralPatterns.Proxy.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722169854076</updated>
       <workItem from="1722169855101" duration="17725000" />
-      <workItem from="1722214826659" duration="1724000" />
+      <workItem from="1722214826659" duration="2074000" />
+      <workItem from="1722389323265" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="ADD Structural Patterns">
       <option name="closed" value="true" />
@@ -163,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722180411793</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD Bridge">
+      <option name="closed" value="true" />
+      <created>1722218934714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722218934714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADD Structural Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD Structural Patterns" />
+    <MESSAGE value="ADD Bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Bridge" />
   </component>
 </project>
